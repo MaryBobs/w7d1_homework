@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
   new Vue ({
     el: "#app",
     data: {
-    greeting: "Hello!"}
+      list: [
+        {task: "Clean windows", done: false},
+        {task: "Make dinner", done: true},
+        {task: "Put up Christmas tree", done: false}
+        ]}
     })
 } )
