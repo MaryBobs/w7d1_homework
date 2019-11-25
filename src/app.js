@@ -8,6 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
         {task: "Clean windows", done: false},
         {task: "Make dinner", done: true},
         {task: "Put up Christmas tree", done: false}
-        ]}
+      ]},
+        methods: {
+          saveNewTodo: function () {
+            this.list.push({
+              task: this.newTodo,
+              done: false
+            });
+          }
+
+        }
     })
 } )
