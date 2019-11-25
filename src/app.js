@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
               task: this.newTodo,
               done: false
             });
+            this.newTodo = "";
           }
 
         }
